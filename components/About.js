@@ -7,13 +7,12 @@ const About = () => {
 
       <div className="font-light text-lg space-y-6 text-gray-700">
         <p className="py-2">
-          I'm a software developer with experience both building cloud native
+          I&apos;m a software developer with experience both building cloud native
           software as well as managing software oriented projects within an
-          enterprise. I've worked in project management roles as well as
+          enterprise. Ive worked in project management roles as well as
           business strategy and development roles. Most recently I worked as a
-          business system's analyst for Tenet healthcare. However, I am now
-          looking to move into a software engineering role. Some of the tools
-          I've worked with in the past include{" "}
+          business system&apos;s analyst for a large healthcare company. 
+          Some of the tools I&apos;ve worked with in the past include{" "}
           <span className="font-bold">
             Python / Django, Javascript, React, Redux, GraphQL, Node.js,
             PostgreSQL, AWS, GCP, Docker, Kubernetes, Git, HTML, TailwindCSS,
@@ -30,8 +29,8 @@ const About = () => {
         </p>
 
         <p className="py-2">
-          In my free time I enjoy travelling, playing golf, jogging, building
-          computers and radios, and spending time with my family.
+          In my free time I enjoy travelling, playing golf, running,
+          and spending time with my family.
         </p>
 
         <p className="py-2">

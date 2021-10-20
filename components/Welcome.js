@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <section className="text-lg font-light text-gray-800">
       <p>
-        See what I've been working on below. Or find my
+        See what I&apos;ve been working on below. Or find my
         <a className="hover:text-red-300 border-b-2 font-bold transition duration-300" href="#">
           {" "}Resume{" "}
         </a>
