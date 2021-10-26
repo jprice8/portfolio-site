@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <section id="hero" className="flex justify-between py-4">
+    <section id="hero" className="flex justify-between">
       <div id="left-hero">
-        <div className="text-5xl font-bold text-gray-800 pt-4">
+        <div className="text-6xl font-bold text-gray-800">
           <h1>Hello, I&apos;m Jackson Price.</h1>
           <h1 className="pt-2">I&apos;m a software developer in Texas.</h1>
         </div>

@@ -6,41 +6,31 @@ const projects = [
     id: 1,
     title: "Par Level Reset",
     description:
-      "A web app to identify and reduce non-moving and excess inventory.",
+      "A web based system to identify and reduce non-moving and excess inventory.",
     tools: "Python, Django, PostgreSQL, ReactJS, Docker, Kubernetes, GCP.",
-    image: "/placeholder.jpeg",
-    link: "#",
-    repo: "#",
+    image: "/plr_demo.png",
+    link: "https://par-level-reset-demo.vercel.app/",
+    repo: null,
   },
   {
     id: 2,
     title: "Code Review",
     description:
-      "A static React app to help visualize common data structures and algorithms.",
+      "A static NextJS app to help visualize common data structures and algorithms.",
     tools: "ReactJS, Gatsby, Vercel.",
-    image: "/placeholder.jpeg",
-    link: "#",
-    repo: "#",
-  },
-  {
-    id: 3,
-    title: "Project Three",
-    description:
-      "A project that implements all of my system design study along with Backend Engineer topics.",
-    tools: "Kafka, Airflow, Spark, AWS, Either GoLang or Java.",
-    image: "/placeholder.jpeg",
-    link: "#",
-    repo: "#",
+    image: "/code_review.png",
+    link: "https://code-review-rho.vercel.app/",
+    repo: "https://github.com/jprice8/code-review",
   },
 ]
 
 const Projects = () => {
   return (
-    <section className="py-12">
+    <section className="">
       <h1 className="pb-12 tracking-widest text-2xl font-bold uppercase">
         Projects
       </h1>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="flex justify-between">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
