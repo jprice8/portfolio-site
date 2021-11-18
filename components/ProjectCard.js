@@ -11,40 +11,38 @@ const ProjectCard = ({ project }) => {
         onMouseEnter={() => setHoverProject(true)}
         onMouseLeave={() => setHoverProject(false)}
       >
-        <a href={project.link}>
-          <div className="">
-            <img
-              className="w-full rounded-xl"
-              src={project.image}
-              alt="Project background image"
-            />
-          </div>
-          <h1 className="mt-4 text-3xl text-gray-600">{project.title}</h1>
-          <div
-            className={`mt-8 font-light text-gray-500 opacity-0 ${
-              hoverProject && "opacity-100"
-            }`}
+        <div>
+          <img
+            className="w-full rounded-xl"
+            src={project.image}
+            alt="Project background image"
+          />
+        </div>
+        <h1 className="mt-4 text-3xl text-gray-600">{project.title}</h1>
+        <div
+          className={`mt-8 font-light text-gray-500 opacity-0 ${
+            hoverProject && "opacity-100"
+          }`}
+        >
+          <p className="mb-8">{project.description}</p>
+          <a
+            className="hover:text-red-300 border-b-2 transition duration-300"
+            href={project.link}
           >
-            <p className="mb-8">{project.description}</p>
-            <a
-              className="hover:text-red-300 border-b-2 transition duration-300"
-              href={project.link}
-            >
-              Demo
-            </a>
-            {project.repo && (
-              <Fragment>
-                <span> | </span>
-                <a
-                  className="hover:text-red-300 border-b-2 transition duration-300"
-                  href={project.repo}
-                >
-                  Code
-                </a>
-              </Fragment>
-            )}
-          </div>
-        </a>
+            Demo
+          </a>
+          {project.repo && (
+            <Fragment>
+              <span> | </span>
+              <a
+                className="hover:text-red-300 border-b-2 transition duration-300"
+                href={project.repo}
+              >
+                Code
+              </a>
+            </Fragment>
+          )}
+        </div>
       </div>
     </article>
   )
