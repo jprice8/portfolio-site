@@ -12,11 +12,9 @@ import {
   DiHtml5,
   DiCss3,
   DiLinux,
-  DiJava,
-  DiScala,
 } from "react-icons/di"
 
-import { SiApachekafka, SiApacheairflow } from 'react-icons/si'
+import { SiApachekafka, SiApacheairflow, SiNextdotjs, SiRabbitmq, SiCelery } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -75,23 +73,18 @@ const Skills = () => {
 
       <div className="flex justify-evenly mt-4 max-w-3xl mx-auto">
         <div>
-          <DiJava style={{color: 'gray', fontSize: '75px' }} />
-          <p className="text-gray-500 text-center mt-2">Java</p>
+          <SiRabbitmq style={{color: 'gray', fontSize: '75px' }} />
+          <p className="text-gray-500 text-center mt-2">RabbitMQ</p>
         </div>
 
         <div>
-          <DiScala style={{color: 'gray', fontSize: '75px' }} />
-          <p className="text-gray-500 text-center mt-2">Scala</p>
+          <SiCelery style={{color: 'gray', fontSize: '75px' }} />
+          <p className="text-gray-500 text-center mt-2">Celery</p>
         </div>
 
         <div>
-          <SiApachekafka style={{color: 'gray', fontSize: '75px' }} />
-          <p className="text-gray-500 text-center mt-2">Kafka</p>
-        </div>
-
-        <div>
-          <SiApacheairflow style={{color: 'gray', fontSize: '75px' }} />
-          <p className="text-gray-500 text-center mt-2">Airflow</p>
+          <SiNextdotjs style={{color: 'gray', fontSize: '75px' }} />
+          <p className="text-gray-500 text-center mt-2">Next.js</p>
         </div>
 
         <div>

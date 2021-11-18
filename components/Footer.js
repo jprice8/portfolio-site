@@ -6,15 +6,18 @@ const Footer = () => {
   return (
     <footer className="bg-gray-200 py-24">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
-        <div className="grid grid-cols-2 gap-32">
+        <div className="grid grid-cols-4 gap-32">
 
-          <article>
+          <article className="col-span-2">
             <h1 className="uppercase tracking-widest font-bold text-xl">
               Get in Touch
             </h1>
             <div className="mt-4">
               <Form />
             </div>
+          </article>
+
+          <article>
           </article>
 
           <article>
