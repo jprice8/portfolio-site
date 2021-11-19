@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Jackson Price | jprice.io</title>
         <meta name="description" content="Portfolio site for Jackson Price" />
@@ -31,6 +31,6 @@ export default function Home() {
       </main>
       <Footer />
  
-    </div>
+    </>
   )
 }
