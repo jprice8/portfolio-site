@@ -8,7 +8,7 @@ const Form = () => {
       method="POST"
       className="space-y-6 mt-4"
     >
-      <div className="grid grid-cols-2 gap-4 w-full">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 w-full">
         <input 
           type="text" 
           name="name" 
@@ -32,7 +32,7 @@ const Form = () => {
         <textarea 
           name="message"
           id="message"
-          rows="3" 
+          rows="4" 
           className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-2"
           placeholder="Message"
           required

@@ -18,10 +18,6 @@ const Follow = () => {
         </div>
       </div>
 
-      <div className="font-semibold text-gray-700 space-y-2 mt-4">
-        <h4>Jackson Price</h4>
-        <h4>jacksonprice321@gmail.com</h4>
-      </div>
     </div>
   )
 }

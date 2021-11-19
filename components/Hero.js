@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className="pt-2">I&apos;m a software developer in Texas.</h1>
         </div>
       </div>
-      <div id="right-hero">
+      <div id="right-hero" className="">
         <Image src="/profile_pic_square2.png" width={124} height={124} alt="Profile picture" className="rounded-full" />
       </div>
     </section>
