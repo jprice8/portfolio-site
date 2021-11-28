@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Par Level Reset",
     description:
-      "A full stack application to calculate optimal inventory levels and help directors set them accordingly.",
+      "A full stack application to calculate optimal inventory levels and help supply chain directors set them accordingly.",
     tools: "Python, Django, Celery, RabbitMQ, PostgreSQL, ReactJS, AWS.",
     image: "/plr_demo.png",
     link: "https://par-level-reset-demo.vercel.app/",

@@ -14,7 +14,7 @@ import {
   DiLinux,
 } from "react-icons/di"
 
-import { SiApachekafka, SiApacheairflow, SiNextdotjs, SiRabbitmq, SiCelery } from 'react-icons/si'
+import { SiApachekafka, SiApacheairflow, SiNextdotjs, SiRabbitmq, SiCelery, SiRedis } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -73,8 +73,8 @@ const Skills = () => {
 
       <div className="flex justify-evenly mt-4 max-w-3xl mx-auto">
         <div>
-          <SiRabbitmq style={{color: 'gray', fontSize: '75px' }} />
-          <p className="text-gray-500 text-center mt-2">RabbitMQ</p>
+          <SiRedis style={{color: 'gray', fontSize: '75px' }} />
+          <p className="text-gray-500 text-center mt-2">Redis</p>
         </div>
 
         <div>
