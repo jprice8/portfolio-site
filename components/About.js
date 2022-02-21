@@ -17,8 +17,8 @@ const About = () => {
           chain analytics. Some of the tools I&apos;ve worked with in the past
           include{" "}
           <span className="font-bold">
-            Python, Django, Javascript, React, Redux, Node.js,
-            Next.js, PostgreSQL, Redis, NGINX, AWS, GCP, Docker, Kubernetes, Git, HTML, and TailwindCSS.
+            Python, Django, FastAPI, Flask, Javascript, React, Redux, Node.js,
+            Next.js, PostgreSQL, Redis, NGINX, AWS, GCP, Docker, Git, HTML, and TailwindCSS.
           </span>
         </p>
 
