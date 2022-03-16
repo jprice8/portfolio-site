@@ -4,6 +4,7 @@ import {
   DiPython,
   DiDjango,
   DiJavascript1,
+  DiJava,
   DiNodejs,
   DiReact,
   DiPostgresql,
@@ -14,7 +15,7 @@ import {
   DiLinux,
 } from "react-icons/di"
 
-import { SiApachekafka, SiApacheairflow, SiNextdotjs, SiRabbitmq, SiCelery, SiRedis } from 'react-icons/si'
+import { SiApachekafka, SiApacheairflow, SiNextdotjs, SiRabbitmq, SiCelery, SiRedis, SiSpring } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -47,6 +48,16 @@ const Skills = () => {
         <div>
           <DiReact style={{ color: "gray", fontSize: "75px" }} />
           <p className="text-gray-500 text-center mt-2">React</p>
+        </div>
+
+        <div>
+          <DiJava style={{ color: "gray", fontSize: "75px" }} />
+          <p className="text-gray-500 text-center mt-2">Java</p>
+        </div>
+
+        <div>
+          <SiSpring style={{ color: "gray", fontSize: "75px" }} />
+          <p className="text-gray-500 text-center mt-2">Spring</p>
         </div>
 
         <div>

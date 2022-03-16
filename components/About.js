@@ -14,12 +14,7 @@ const About = () => {
           an enterprise. I&apos;ve worked in project management, business strategy
           and systems analyst roles. At the time of writing this,
           I am currently working for a large healthcare company with a focus on supply
-          chain analytics. Some of the tools I&apos;ve worked with in the past
-          include{" "}
-          <span className="font-bold">
-            Python, Django, FastAPI, Flask, Javascript, React, Redux, Node.js,
-            Next.js, PostgreSQL, Redis, NGINX, AWS, GCP, Docker, Git, HTML, and TailwindCSS.
-          </span>
+          chain analytics. 
         </p>
 
         <p className="py-2">
