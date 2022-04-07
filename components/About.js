@@ -11,10 +11,8 @@ const About = () => {
         <p className="py-2">
           I&apos;m a software developer with experience building cloud-native
           software, as well as managing software-oriented projects within
-          an enterprise. I&apos;ve worked in project management, business strategy
-          and systems analyst roles. At the time of writing this,
-          I am currently working for a large healthcare company with a focus on supply
-          chain analytics. 
+          an enterprise. I&apos;ve worked in project management, strategy,
+          and systems analyst roles. 
         </p>
 
         <p className="py-2">
