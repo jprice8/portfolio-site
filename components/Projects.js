@@ -12,15 +12,6 @@ const projects = [
     link: "https://par-level-reset-demo.vercel.app/",
     repo: null,
   },
-  {
-    id: 2,
-    title: "Reduction Toolkit",
-    description: "A full stack application to help supply chain directors identify non-moving inventory and manage the reduction process.",
-    tools: "ReactJS, Gatsby, Vercel.",
-    image: "/toolkit_thumbnail.png",
-    link: "https://reduction-toolkit-demo.vercel.app/",
-    repo: null,
-  },
 ]
 
 const Projects = () => {
